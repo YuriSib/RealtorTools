@@ -11,7 +11,7 @@ from playwright.async_api import async_playwright, BrowserContext
 
 logging.basicConfig(filename='log.log', filemode='w', level=logging.DEBUG, encoding='utf-8')
 
-API_KEY = '005cce153b-c1ce75395d-c33d9da48f'
+API_KEY = 'c89f64ef82-bd47afbe30-93e0257d03'
 
 
 class AvitoParser():
@@ -48,7 +48,6 @@ class AvitoParser():
                 ensure_ascii=False
             )
 
-
     @staticmethod
     def GetRandomUrls():
         with open('random_url.txt', 'r', encoding='utf-8') as file:
@@ -61,9 +60,9 @@ class AvitoParser():
         result = []
         for item in data['list'].values():
             result.append({
-                'server' : f'{item["ip"]}:{item["port"]}',
-                'username' : item['user'],
-                'password' : item['pass']
+                'server': f'{item["ip"]}:{item["port"]}',
+                'username': item['user'],
+                'password': item['pass']
             })
         return result
 
@@ -121,15 +120,12 @@ class AvitoParser():
                 await asyncio.sleep(self.sleepSeconds)
                 self.WriteCookies([])
 
-        
-
-
     async def GetHtml(self):
         idx = 0
         while self.urls:
             CookiesList = self.ReadCookies()
             if CookiesList == []:
-                await asyncio.sleep(4)
+                await asyncio.sleep(40)
             else:
                 for cookies, proxies in zip(CookiesList, self.ProxyListForRequest):
                     if self.urls:
@@ -140,6 +136,7 @@ class AvitoParser():
                             proxies=proxies,
                             headers={'user-agent' : UserAgent().random}
                         )
+                        print(response.status_code)
                         if response.ok:
                             self.logger.debug('Статус код: {} | URL: {}'.format(response.status_code, response.url))
                             with open(f'html/{idx}.html', 'w', encoding='utf-8') as file:
@@ -152,6 +149,7 @@ class AvitoParser():
                         await asyncio.sleep(random.randint(1, 2))
                     else:
                         break
+
     async def run(self):
         self.WriteCookies([])
         await asyncio.gather(
