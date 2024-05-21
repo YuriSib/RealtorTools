@@ -73,7 +73,7 @@ class SomeName:
 obj = SomeName(False)
 asyncio.run(obj.SaveState())
 
-idx = 2 #random.randint(0, 2)
+idx = random.randint(0, 2)
 with open(f'cookies_{idx}.json', 'r', encoding='utf-8') as file:
     d = json.load(file)
 
