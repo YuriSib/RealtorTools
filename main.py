@@ -9,7 +9,7 @@ import re
 from fake_useragent import UserAgent
 from playwright.async_api import async_playwright, BrowserContext
 
-logging.basicConfig(filename='log.log', filemode='w', level=logging.DEBUG, encoding='utf-8')
+logging.basicConfig(filename='parser/log.log', filemode='w', level=logging.DEBUG, encoding='utf-8')
 
 API_KEY = 'c89f64ef82-bd47afbe30-93e0257d03'
 
@@ -35,12 +35,12 @@ class AvitoParser():
 
     @staticmethod
     def ReadCookies():
-        with open('cookies.json', 'r', encoding='utf-8') as file:
+        with open('cookies/cookies.json', 'r', encoding='utf-8') as file:
             return json.load(file)
     
     @staticmethod
     def WriteCookies(CookiesList : list[dict]):
-        with open('cookies.json', 'w', encoding='utf-8') as file:
+        with open('cookies/cookies.json', 'w', encoding='utf-8') as file:
             json.dump(
                 obj=CookiesList,
                 fp=file,
@@ -50,7 +50,7 @@ class AvitoParser():
 
     @staticmethod
     def GetRandomUrls():
-        with open('random_url.txt', 'r', encoding='utf-8') as file:
+        with open('parser/random_url.txt', 'r', encoding='utf-8') as file:
             return file.read().split('\n')
 
     @staticmethod
@@ -158,7 +158,7 @@ class AvitoParser():
         )
 
 
-with open('input_urls.txt', 'r', encoding='utf-8') as file:
+with open('parser/input_urls.txt', 'r', encoding='utf-8') as file:
     urls = [url for url in file.read().split('\n') if url != ''] * 4
 
 
