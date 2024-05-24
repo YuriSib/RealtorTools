@@ -52,33 +52,33 @@ class SomeName:
                 with open(f"cookies/cookies_{idx}.json", 'w', encoding='utf-8') as file:
                     json.dump(cookie, file, indent=4, ensure_ascii=False)
 
+if __name__ == "__main__":
+    # obj = SomeName(False)
+    # asyncio.run(obj.SaveState())
 
-# obj = SomeName(False)
-# asyncio.run(obj.SaveState())
+    # idx = 0#random.randint(0, 2)
+    for idx in range(6):
+        print(idx)
+        with open(f'cookies/cookies_{idx}.json', 'r', encoding='utf-8') as file:
+            d = json.load(file)
 
-# idx = 0#random.randint(0, 2)
-for idx in range(6):
-    print(idx)
-    with open(f'cookies/cookies_{idx}.json', 'r', encoding='utf-8') as file:
-        d = json.load(file)
+        proxy = "http://{}:{}@{}".format(d['username'], d['password'], d['server'])
+        print(proxy)
+        proxies = {
+            'http': proxy,
+            'https': proxy
+        }
+        ua = UserAgent().random
+        print(d['cookies'])
+        cookies = {
+            i['name']: i['value'] for i in d['cookies']
+        }
+        print(cookies)
 
-    proxy = "http://{}:{}@{}".format(d['username'], d['password'], d['server'])
-    print(proxy)
-    proxies = {
-        'http': proxy,
-        'https': proxy
-    }
-    ua = UserAgent().random
-    print(d['cookies'])
-    cookies = {
-        i['name']: i['value'] for i in d['cookies']
-    }
-    print(cookies)
-
-    response = requests.get(
-        url='https://www.avito.ru',
-        headers={'user-agent': ua},
-        cookies=cookies,
-        proxies=proxies
-    )
-    print(response.status_code)
+        response = requests.get(
+            url='https://www.avito.ru',
+            headers={'user-agent': ua},
+            cookies=cookies,
+            proxies=proxies
+        )
+        print(response.status_code)

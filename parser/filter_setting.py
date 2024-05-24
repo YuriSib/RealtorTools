@@ -6,10 +6,10 @@ import json
 from fake_useragent import UserAgent
 from playwright.async_api import async_playwright, BrowserContext
 
-from common_scripts import get_proxy_list, hidden_start
+from parser.common_scripts import get_proxy_list, hidden_start
 
 
-async def get_url():
+async def get_avito_url(primary_url):
     async with async_playwright() as p:
         browser = await p.firefox.launch(headless=False)
         proxy_list = get_proxy_list()
@@ -19,7 +19,7 @@ async def get_url():
         page = await hidden_start(context)
 
 
-tasks = []
-task = asyncio.create_task(get_url())
-tasks.append(task)
-result = asyncio.gather(*tasks)
+# tasks = []
+# task = asyncio.create_task(get_url())
+# tasks.append(task)
+# result = asyncio.gather(*tasks)

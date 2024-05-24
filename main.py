@@ -35,12 +35,12 @@ class AvitoParser():
 
     @staticmethod
     def ReadCookies():
-        with open('cookies/cookies.json', 'r', encoding='utf-8') as file:
+        with open('parser/cookies/cookies.json', 'r', encoding='utf-8') as file:
             return json.load(file)
     
     @staticmethod
     def WriteCookies(CookiesList : list[dict]):
-        with open('cookies/cookies.json', 'w', encoding='utf-8') as file:
+        with open('parser/cookies/cookies.json', 'w', encoding='utf-8') as file:
             json.dump(
                 obj=CookiesList,
                 fp=file,

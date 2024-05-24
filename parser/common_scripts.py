@@ -1,7 +1,7 @@
 import requests
 import random
 
-from pw_keys import API_KEY
+from config import API_KEY
 
 
 def get_proxy_list():
