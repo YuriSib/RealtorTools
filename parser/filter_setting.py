@@ -6,7 +6,7 @@ import json
 from fake_useragent import UserAgent
 from playwright.async_api import async_playwright, BrowserContext
 
-from parser.common_scripts import get_proxy_list, hidden_start
+from RealtorTools.parser.common_scripts import get_proxy_list, hidden_start
 
 
 async def get_avito_url(primary_url):

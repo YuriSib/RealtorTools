@@ -18,8 +18,8 @@ choice_realty_type = InlineKeyboardMarkup(inline_keyboard=[
 
 
 flat_choice_type_1 = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='Купить', callback_data='kypit')],
-    [InlineKeyboardButton(text='Снять', callback_data='snyat')],
+    [InlineKeyboardButton(text='Купить', callback_data='flat_kypit')],
+    [InlineKeyboardButton(text='Снять', callback_data='flat_snyat')],
     [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
 ])
 
@@ -37,13 +37,33 @@ flat_choice_type_2_2 = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 
+def make_row_keyboard(choosing_room: dict) -> InlineKeyboardMarkup:
+    row = []
+    for key, value in choosing_room.items():
+        if value:
+            row.append([InlineKeyboardButton(text=f'🔵 {key}', callback_data=key)])
+        else:
+            row.append([InlineKeyboardButton(text=f'🔴 {key}', callback_data=key)])
+    row.append([InlineKeyboardButton(text='Утвердить выбор', callback_data='Утвердить выбор')])
+    row.append([InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')])
+
+    return InlineKeyboardMarkup(inline_keyboard=row)
+
+
+get_price = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='Минимальная цена', callback_data='flat_min_price')],
+    [InlineKeyboardButton(text='Максимальная цена', callback_data='flat_max_price')],
+    [InlineKeyboardButton(text='Утвердить выбор', callback_data='flat_accept_price')],
+    [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
+])
+
+
 
 home_choice_type_1 = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Купить', callback_data='kypit_dom')],
     [InlineKeyboardButton(text='Снять', callback_data='snyat_dom')],
     [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
 ])
-
 
 
 land_choice_type_1 = InlineKeyboardMarkup(inline_keyboard=[
@@ -104,5 +124,5 @@ commerce_choice_type = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 
-def custom_key(*list_):
-    pass
+
+

@@ -1,7 +1,7 @@
 import requests
 import random
 
-from config import API_KEY
+from RealtorTools.config import API_KEY
 
 
 def get_proxy_list():

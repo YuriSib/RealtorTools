@@ -1,7 +1,7 @@
 import asyncio
 from aiogram import Dispatcher
 
-from t_bot.app.heandlers import router, bot
+from RealtorTools.t_bot.app.heandlers import router, bot
 
 
 async def main():
