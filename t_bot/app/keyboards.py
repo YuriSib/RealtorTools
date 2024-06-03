@@ -24,15 +24,15 @@ flat_choice_type_1 = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 flat_choice_type_2_1 = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='Вторичка, новостройки', callback_data='vtorochka_novostroyki')],
-    [InlineKeyboardButton(text='Вторичка', callback_data='vtorochka')],
-    [InlineKeyboardButton(text='Новостройки', callback_data='novostroyki')],
+    [InlineKeyboardButton(text='Вторичка, новостройки', callback_data='flat_choice_vtorochka_novostroyki')],
+    [InlineKeyboardButton(text='Вторичка', callback_data='flat_choice_vtorochka')],
+    [InlineKeyboardButton(text='Новостройки', callback_data='flat_choice_novostroyki')],
     [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
 ])
 
 flat_choice_type_2_2 = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='Длительно', callback_data='dlitelno')],
-    [InlineKeyboardButton(text='Посуточно', callback_data='posutochno')],
+    [InlineKeyboardButton(text='Длительно', callback_data='flat_choice_dlitelno')],
+    [InlineKeyboardButton(text='Посуточно', callback_data='flat_choice_posutochno')],
     [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
 ])
 
@@ -51,12 +51,9 @@ def make_row_keyboard(choosing_room: dict) -> InlineKeyboardMarkup:
 
 
 get_price = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='Минимальная цена', callback_data='flat_min_price')],
-    [InlineKeyboardButton(text='Максимальная цена', callback_data='flat_max_price')],
-    [InlineKeyboardButton(text='Утвердить выбор', callback_data='flat_accept_price')],
+    [InlineKeyboardButton(text='Указать ценовой диапазон', callback_data='flat_price')],
     [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
 ])
-
 
 
 home_choice_type_1 = InlineKeyboardMarkup(inline_keyboard=[
@@ -95,7 +92,6 @@ land_choice_category_2 = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 
-
 garage_choice_type = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Купить', callback_data='kypit_garage')],
     [InlineKeyboardButton(text='Снять', callback_data='snyat_garage')],
@@ -124,5 +120,7 @@ commerce_choice_type = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 
-
-
+choice_region = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='Выбрать регион', callback_data='choice_region')],
+    [InlineKeyboardButton(text='В главное меню', callback_data='nazad_v_menu')],
+])
