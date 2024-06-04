@@ -19,15 +19,22 @@ def add_user(name, tg_id):
     conn.close()
 
 
-def add_filter_1(tg_id, filter_1_value):
+def add_filter_1(tg_id: int, filter_1_value: tuple):
     conn, cursor = open_db()
 
     cursor.execute(f"SELECT filter_1 FROM users WHERE tg_id = {tg_id}")
     row = cursor.fetchall()
     if row[0][0]:
         value_list = json.loads(row[0][0])
-        value_list.append(filter_1_value)
-        filter_1_json = json.dumps(value_list)
+        if value_list[-1][0] >= filter_1_value[0]:
+            value_list[filter_1_value[0]-1] = filter_1_value
+
+            value_list.append(filter_1_value)
+            new_value_list = [value for value in value_list if value[0] < filter_1_value[0]]
+            filter_1_json = json.dumps([filter_1_value])
+        else:
+            value_list.append(filter_1_value)
+            filter_1_json = json.dumps(value_list)
     else:
         filter_1_json = json.dumps([filter_1_value])
 
@@ -47,9 +54,10 @@ def get_filter_1(tg_id):
 
 
 if __name__ == "__main__":
-    filter_1 = '355'
+    filter_1 = (1, 'House')
     tg_id = 121345124
     user_name = 'ASD'
 
     # add_user(user_name, tg_id)
     add_filter_1(tg_id, filter_1)
+    # print(get_filter_1(tg_id))

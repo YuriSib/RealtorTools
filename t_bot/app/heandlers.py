@@ -38,6 +38,7 @@ async def menu(callback: CallbackQuery, bot):
 
 @router.callback_query(lambda callback_query: callback_query.data.startswith('kvartira'))
 async def flat(callback: CallbackQuery, bot):
+    await sc.add_filter_1(tg_id=callback.from_user.id, filter_1_value=(1, 'Квартира'))
     await bot.delete_message(chat_id=callback.from_user.id, message_id=callback.message.message_id)
     await bot.send_message(chat_id=callback.from_user.id, text='Выберите пункт.', reply_markup=kb.flat_choice_type_1)
 

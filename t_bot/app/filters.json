@@ -11,49 +11,49 @@
         "Посуточно": "https://www.avito.ru/all/kvartiry/sdam/posutochno/-ASgBAgICAkSSA8gQ8AeSUg?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
       }
     },
-    "Дом": {
-      "Купить": "https://www.avito.ru/all/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-      "Снять": "https://www.avito.ru/all/doma_dachi_kottedzhi/sdam/na_dlitelnyy_srok-ASgBAgICAkSUA9IQoAjIVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
-    },
-    "Земельный участок": {
-      "Купить": {
-        "Категория земель": {
-          "Поселений (ИЖС)": "https://www.avito.ru/all/zemelnye_uchastki/prodam/izhs-ASgBAQICAUSWA9oQAUCmCBTmVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-          "Сельхозназначения (СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/prodam/selhoznaznacheniya-ASgBAQICAUSWA9oQAUCmCBToVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-          "Промназначения": "https://www.avito.ru/all/zemelnye_uchastki/prodam/promnaznacheniya-ASgBAQICAUSWA9oQAUCmCBTqVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-          "(ИЖС)+(СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCCToVeZV",
-          "(ИЖС)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCCTqVeZV",
-          "(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCCTqVehV",
-          "(ИЖС)+(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCDTmVepV6FU"
-        }
-      },
-      "Снять": {
-        "Категория земель": {
-          "Поселений (ИЖС)": "https://www.avito.ru/all/zemelnye_uchastki/sdam/izhs-ASgBAQICAUSWA9wQAUDQCxSmpAE?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-          "Сельхозназначения (СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/sdam/selhoznaznacheniya-ASgBAQICAUSWA9wQAUDQCxSqpAE?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-          "Промназначения": "https://www.avito.ru/all/zemelnye_uchastki/sdam/promnaznacheniya-ASgBAQICAUSWA9wQAUDQCxSopAE?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-          "(ИЖС)+(СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCySqpAGmpAE",
-          "(ИЖС)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCySopAGqpAE",
-          "(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCySopAGmpAE",
-          "(ИЖС)+(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCzSqpAGopAGmpAE"
-        }
+  "Дом": {
+    "Купить": "https://www.avito.ru/all/doma_dachi_kottedzhi/prodam-ASgBAgICAUSUA9AQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+    "Снять": "https://www.avito.ru/all/doma_dachi_kottedzhi/sdam/na_dlitelnyy_srok-ASgBAgICAkSUA9IQoAjIVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
+  },
+  "Земельный участок": {
+    "Купить": {
+      "Категория земель": {
+        "Поселений (ИЖС)": "https://www.avito.ru/all/zemelnye_uchastki/prodam/izhs-ASgBAQICAUSWA9oQAUCmCBTmVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+        "Сельхозназначения (СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/prodam/selhoznaznacheniya-ASgBAQICAUSWA9oQAUCmCBToVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+        "Промназначения": "https://www.avito.ru/all/zemelnye_uchastki/prodam/promnaznacheniya-ASgBAQICAUSWA9oQAUCmCBTqVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+        "(ИЖС)+(СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCCToVeZV",
+        "(ИЖС)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCCTqVeZV",
+        "(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCCTqVehV",
+        "(ИЖС)+(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/prodam-ASgBAgICAUSWA9oQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9oQAUCmCDTmVepV6FU"
       }
     },
-    "Гараж и машиноместо": {
-      "Купить": {
-        "Все": "https://www.avito.ru/all/garazhi_i_mashinomesta/prodam-ASgBAgICAUSYA~QQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-        "Гараж": "https://www.avito.ru/all/garazhi_i_mashinomesta/prodam/garazh-ASgBAgICAkSYA~QQqAjsVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-        "Машиноместо": "https://www.avito.ru/all/garazhi_i_mashinomesta/prodam/mashinomesto-ASgBAgICAkSYA~QQqAjuVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
-      },
-      "Снять": {
-        "Все": "https://www.avito.ru/all/garazhi_i_mashinomesta/sdam-ASgBAgICAUSYA~YQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-        "Гараж": "https://www.avito.ru/all/garazhi_i_mashinomesta/sdam/garazh-ASgBAgICAkSYA~YQ5gj2Wg?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-        "Машиноместо": "https://www.avito.ru/all/garazhi_i_mashinomesta/sdam/mashinomesto-ASgBAgICAkSYA~YQ5gj4Wg?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
+    "Снять": {
+      "Категория земель": {
+        "Поселений (ИЖС)": "https://www.avito.ru/all/zemelnye_uchastki/sdam/izhs-ASgBAQICAUSWA9wQAUDQCxSmpAE?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+        "Сельхозназначения (СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/sdam/selhoznaznacheniya-ASgBAQICAUSWA9wQAUDQCxSqpAE?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+        "Промназначения": "https://www.avito.ru/all/zemelnye_uchastki/sdam/promnaznacheniya-ASgBAQICAUSWA9wQAUDQCxSopAE?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+        "(ИЖС)+(СНТ, ДНП)": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCySqpAGmpAE",
+        "(ИЖС)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCySopAGqpAE",
+        "(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCySopAGmpAE",
+        "(ИЖС)+(СНТ, ДНП)+Пром": "https://www.avito.ru/all/zemelnye_uchastki/sdam-ASgBAgICAUSWA9wQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA&f=ASgBAQICAUSWA9wQAUDQCzSqpAGopAGmpAE"
       }
-    },
-    "Коммерческая недвижимость": {
-      "Купить": "https://www.avito.ru/all/kommercheskaya_nedvizhimost/prodam-ASgBAgICAUSwCNJW?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
-      "Снять": "https://www.avito.ru/all/kommercheskaya_nedvizhimost/sdam-ASgBAgICAUSwCNRW?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
     }
+  },
+  "Гараж и машиноместо": {
+    "Купить": {
+      "Все": "https://www.avito.ru/all/garazhi_i_mashinomesta/prodam-ASgBAgICAUSYA~QQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+      "Гараж": "https://www.avito.ru/all/garazhi_i_mashinomesta/prodam/garazh-ASgBAgICAkSYA~QQqAjsVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+      "Машиноместо": "https://www.avito.ru/all/garazhi_i_mashinomesta/prodam/mashinomesto-ASgBAgICAkSYA~QQqAjuVQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
+    },
+    "Снять": {
+      "Все": "https://www.avito.ru/all/garazhi_i_mashinomesta/sdam-ASgBAgICAUSYA~YQ?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+      "Гараж": "https://www.avito.ru/all/garazhi_i_mashinomesta/sdam/garazh-ASgBAgICAkSYA~YQ5gj2Wg?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+      "Машиноместо": "https://www.avito.ru/all/garazhi_i_mashinomesta/sdam/mashinomesto-ASgBAgICAkSYA~YQ5gj4Wg?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
+    }
+  },
+  "Коммерческая недвижимость": {
+    "Купить": "https://www.avito.ru/all/kommercheskaya_nedvizhimost/prodam-ASgBAgICAUSwCNJW?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA",
+    "Снять": "https://www.avito.ru/all/kommercheskaya_nedvizhimost/sdam-ASgBAgICAUSwCNRW?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLNSKk5NLErOcMsvyg3PTElPLVGyrgUEAAD__xf8iH4tAAAA"
+  }
   }
 }
